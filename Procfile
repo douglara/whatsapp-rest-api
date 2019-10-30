@@ -1,1 +1,1 @@
-web: npm start
+web: `wget $SESSION_FILES && unzip session.zip && npm start`
